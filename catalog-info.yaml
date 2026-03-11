@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tf-overlays-baseline
+  description: Baseline Terraform overlay configuration shared across modules
+  annotations:
+    github.com/project-slug: POps-Rox/tf-overlays-baseline
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - terraform
+    - utility
+    - platform-ops
+  links:
+    - url: https://github.com/POps-Rox/tf-overlays-baseline
+      title: GitHub Repository
+      icon: github
+spec:
+  type: terraform-module
+  owner: platform-ops-team
+  lifecycle: production
+  system: pops-rox-platform
