@@ -4,7 +4,7 @@ This document provides best practices for developing reusable Terraform modules 
 
 ## Repository
 
-- Use [this template](https://github.com/azurenoops/terraform-module-overlays-template) when creating your repository.
+- Use [this template](https://github.com/POps-Rox/terraform-module-overlays-template) when creating your repository.
 
 - Use the common naming convention `terraform-azurerm-overlays-<name>` when naming your repository.
 
@@ -13,7 +13,7 @@ This document provides best practices for developing reusable Terraform modules 
 - Configure the following code owners in a file `.github/CODEOWNERS`:
 
     ```raw
-    * @azurenoops/code-reviewers
+    * @POps-Rox/code-reviewers
     ```
 
 ## Roles and scope

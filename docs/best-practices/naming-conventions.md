@@ -128,7 +128,7 @@ module "example" {
     b = "b",
     c = "c"
   } : {}
-  source = "azurenoops/ovarlays-storage-account/azurerm"
+  source = "pops-rox/ovarlays-storage-account/azurerm"
   version = "~> 3.0.0"
   name                  = "${var.create_storage_account ? "example" : "none"}-${each.key}"
   location              = azurerm_resource_group.example.location

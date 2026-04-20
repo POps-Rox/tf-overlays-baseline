@@ -12,7 +12,7 @@
 
 Azure NoOps Terraform Baseline Guide (ETB) is a collection of tutorials amd guides on how to get started with Terraform in Azure NoOps.
 
-Hosted in [GitHub Pages](https://azurenoops.github.io/terraform-overlays-baseline/).
+Hosted in [GitHub Pages](https://POps-Rox.github.io/terraform-overlays-baseline/).
 
 ## Development
 

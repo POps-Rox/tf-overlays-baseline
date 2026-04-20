@@ -55,7 +55,7 @@ For example:
 
 ```terraform
 module "mod_storage_account" "example" {
-  source="azurenoops/terraform-azurerm-overlays-storage-account/azurerm"
+  source="pops-rox/terraform-azurerm-overlays-storage-account/azurerm"
   version="0.1.0"
   name                     = "examplest"  
   location                 = "northeurope"
@@ -94,7 +94,7 @@ data "azurerm_resource_group" "example" {
 }
 
 module "mod_storage_account" "example" {
-  source="azurenoops/terraform-azurerm-overlays-storage-account/azurerm"
+  source="pops-rox/terraform-azurerm-overlays-storage-account/azurerm"
   version="0.1.0"
   
   existing_resource_group_name   = data.azurerm_resource_group.example.name

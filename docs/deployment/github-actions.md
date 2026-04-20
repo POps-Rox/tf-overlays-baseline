@@ -26,7 +26,7 @@ It's a great way to automate your CI/CD pipelines, and it's free for public repo
 
 All the GitHub Actions for Azure NoOps are stored in the `.github/workflows` directory of the certain starters and add-on projects. These are the automated workflows we use for ensuring a quality working product. We use GitHub Actions to automate the process of building, testing, and deploying the infrastructure.
 
-These are the automated workflows we use for ensuring a quality working product. All workflows are part of a suite of terraform related actions - find them at <https://github.com/azurenoops/terraform-github-actions>
+These are the automated workflows we use for ensuring a quality working product. All workflows are part of a suite of terraform related actions - find them at <https://github.com/POps-Rox/terraform-github-actions>
 
 For more on GitHub Actions: <https://docs.github.com/en/actions/>
 

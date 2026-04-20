@@ -24,11 +24,11 @@ To find out more about remote state, see the [Remote State documentation](../rem
 
 ## Deployment Planning
 
-If you want to change the default values, you can do so by editing the [parameters.tfvars](https://github.com/azurenoops/ref-scca-enclave-sentinel-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars) file. The following sections describe the parameters that can be changed.
+If you want to change the default values, you can do so by editing the [parameters.tfvars](https://github.com/POps-Rox/ref-scca-enclave-sentinel-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars) file. The following sections describe the parameters that can be changed.
 
 ### Mission Enclave Sentinel Global Configuration
 
-The following parameters affect the "Global Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/azurenoops/ref-scca-enclave-sentinel-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
+The following parameters affect the "Global Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/POps-Rox/ref-scca-enclave-sentinel-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
 
 Example Configuration:
 

@@ -1,6 +1,6 @@
 # Deploy a Mission Enclave Policy using GitHub Actions
 
-This document provides guidance on how to deploy a [Mission Enclave Policy starter](https://github.com/azurenoops/ref-scca-enclave-policy-starter) using GitHub Actions.
+This document provides guidance on how to deploy a [Mission Enclave Policy starter](https://github.com/POps-Rox/ref-scca-enclave-policy-starter) using GitHub Actions.
 
 Learn more about Azure NoOps GitHub Actions [here](../github-actions.md).
 
@@ -16,7 +16,7 @@ Reference the [Remote State Storage](./remote-state-storage.md) directory for th
 
 ### Using GitHub Dependencies Action
 
-Run the following action [deploy_dependencies.yml](https://github.com/azurenoops/ref-scca-enclave-policy-starter/tree/main/.github/workflows/deploy_dependencies.yml) to create the storage account and container.
+Run the following action [deploy_dependencies.yml](https://github.com/POps-Rox/ref-scca-enclave-policy-starter/tree/main/.github/workflows/deploy_dependencies.yml) to create the storage account and container.
 
 ## Setting Up GitHub Actions for deployment
 
@@ -73,9 +73,9 @@ In GitHub, secrets can be defined at three different levels:
 For this refernence implementation, we’ll define our secrets at the repository level. To do so, go to the Settings tab of your repository, and select Secrets then Actions under it, in the left menu.
 
 > **Note**  
-  The GitHub Actions pipelines are currently configured to deploy the Terraform `Mission Enclave Policy` deployments located in the [infrastructure/policy](https://github.com/azurenoops/ref-scca-enclave-policy-starter/infrastructure/policy/).
+  The GitHub Actions pipelines are currently configured to deploy the Terraform `Mission Enclave Policy` deployments located in the [infrastructure/policy](https://github.com/POps-Rox/ref-scca-enclave-policy-starter/infrastructure/policy/).
 
-GitHub Actions pipelines are located in the [`.github/workflows`](https://github.com/azurenoops/ref-scca-enclave-policy-starter/.github/workflows/) directory of the repository.
+GitHub Actions pipelines are located in the [`.github/workflows`](https://github.com/POps-Rox/ref-scca-enclave-policy-starter/.github/workflows/) directory of the repository.
 
 1. Configure your GitHub Actions Secrets
     - In your forked repository, navigate to `Settings > Secrets and variables > Actions`.

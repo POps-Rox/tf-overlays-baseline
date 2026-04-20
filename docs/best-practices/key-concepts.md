@@ -8,7 +8,7 @@ A Resource is an instantiation of an Azure resource such as a azurerm_storage_ac
 
 ## Resource module (aka Overlay Module)
 
-A Resource Module which is commonly called an `Overlay` in the Azure NoOps ecosystem is a collection of connected resources which together perform a common action (For example, [Azure NoOps Storage Account Terraform Overlays Module](https://github.com/azurenoops/terraform-azurerm-overlays-storage-account) creates Storage Account, blobs, tables, etc). It depends on provider configuration, which can be defined in it, or in higher-level structures (e.g. in infrastructure module).
+A Resource Module which is commonly called an `Overlay` in the Azure NoOps ecosystem is a collection of connected resources which together perform a common action (For example, [Azure NoOps Storage Account Terraform Overlays Module](https://github.com/POps-Rox/terraform-azurerm-overlays-storage-account) creates Storage Account, blobs, tables, etc). It depends on provider configuration, which can be defined in it, or in higher-level structures (e.g. in infrastructure module).
 
 ## Infrastructure module
 
@@ -16,13 +16,13 @@ An Infrastructure Module is a collection of resources and/or resource modules, w
 
 Infrastructure module can include multiple Overlay Modules, provider resources, and data sources. While an "`Overlay`" is not necessarily an "Infrastructure module", an infrastructure module can include multiple Overlay Modules, which in turn can be called an `Overlay`. Basically anything that can be used to create a resource or a resource module can be included in an `Overlay`.
 
-For example, [terraform-azurerm-overlays-management-hub](https://github.com/azurenoops/terraform-azurerm-overlays-management-hub) overlay module includes provider resources like [azurerm_virtual_network](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/virtual_network), [azurerm_subnet](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/subnet), and includes resource modules(`Overlay` modules)[terraform-azurerm-overlays-storage-account](https://github.com/azurenoops/terraform-azurerm-overlays-storage-account),[terraform-azurerm-overlays-management-logging](https://github.com/azurenoops/terraform-azurerm-overlays-management-logging) to manage the infrastructure required for running [Landing Zone Management Hub](https://github.com/azurenoops/terraform-azurerm-overlays-management-hub) on Azure NoOps Mission Enclave.
+For example, [terraform-azurerm-overlays-management-hub](https://github.com/POps-Rox/terraform-azurerm-overlays-management-hub) overlay module includes provider resources like [azurerm_virtual_network](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/virtual_network), [azurerm_subnet](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/subnet), and includes resource modules(`Overlay` modules)[terraform-azurerm-overlays-storage-account](https://github.com/POps-Rox/terraform-azurerm-overlays-storage-account),[terraform-azurerm-overlays-management-logging](https://github.com/POps-Rox/terraform-azurerm-overlays-management-logging) to manage the infrastructure required for running [Landing Zone Management Hub](https://github.com/POps-Rox/terraform-azurerm-overlays-management-hub) on Azure NoOps Mission Enclave.
 
 ## Composition
 
 A Composition is a collection of infrastructure modules(`Overlays`), which can span across several logically separated areas (e.g. Azure Regions, several Azure accounts). A Composition is used to describe the complete infrastructure required for the whole organization or project.
 
-A Composition consists of infrastructure modules, which consist of resources modules, which implement individual resources. For example, the [Mission Enclave Landing Zone Starter](https://github.com/azurenoops/ref-scca-enclave-landing-zone-starter) is a composition that consists of the [Landing Zone Management Hub](https://github.com/azurenoops/terraform-azurerm-overlays-management-hub) and [Landing Zone Management Spoke](https://github.com/azurenoops/terraform-azurerm-overlays-management-spoke) infrastructure modules.
+A Composition consists of infrastructure modules, which consist of resources modules, which implement individual resources. For example, the [Mission Enclave Landing Zone Starter](https://github.com/POps-Rox/ref-scca-enclave-landing-zone-starter) is a composition that consists of the [Landing Zone Management Hub](https://github.com/POps-Rox/terraform-azurerm-overlays-management-hub) and [Landing Zone Management Spoke](https://github.com/POps-Rox/terraform-azurerm-overlays-management-spoke) infrastructure modules.
 
 ## Data Source
 

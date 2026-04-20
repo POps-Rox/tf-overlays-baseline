@@ -1,7 +1,7 @@
 site_name: Azure NoOps Terraform Baseline Guide
 
-repo_name: azurenoops/terraform-overlays-baseline
-repo_url: hhttps://github.com/azurenoops/terraform-overlays-baseline
+repo_name: POps-Rox/terraform-overlays-baseline
+repo_url: https://github.com/POps-Rox/terraform-overlays-baseline
 
 theme:
   name: material
@@ -73,7 +73,7 @@ nav:
       - basics/noops/destroy-resources.md
       - basics/noops/summary.md
   - Reusable Modules:
-    - Module library: https://registry.terraform.io/search/modules?namespace=azurenoops&provider=azure
+    - Module library: https://registry.terraform.io/search/modules?namespace=pops-rox&provider=azure
   - Developing Modules:
     - Overview: developing-modules/overview.md
     - Module structure: developing-modules/module-structure.md

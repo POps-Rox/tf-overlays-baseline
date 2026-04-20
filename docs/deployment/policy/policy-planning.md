@@ -20,11 +20,11 @@ To find out more about remote state, see the [Remote State documentation](../rem
 
 ## Deployment Planning
 
-If you want to change the default values, you can do so by editing the [parameters.tfvars](https://github.com/azurenoops/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars) file. The following sections describe the parameters that can be changed.
+If you want to change the default values, you can do so by editing the [parameters.tfvars](https://github.com/POps-Rox/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars) file. The following sections describe the parameters that can be changed.
 
 ### Mission Enclave Policy Global Configuration
 
-The following parameters affect the "Global Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/azurenoops/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
+The following parameters affect the "Global Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/POps-Rox/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
 
 Example Configuration:
 
@@ -37,7 +37,7 @@ Parameter name | Default Value | Description
 
 ### Mission Enclave Policy Configuration
 
-The following parameters affect the "Policy Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/azurenoops/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
+The following parameters affect the "Policy Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/POps-Rox/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
 
 Example Configuration:
 
@@ -54,7 +54,7 @@ Parameter name | Default Value | Description
 
 - Should be Defined as **high up** in the hierarchy as possible.
 - Should be Assigned as **low down** in the hierarchy as possible.
-- Multiple scopes can be exempt from policy inheritance by specifying `assignment_not_scopes` or using the [Azure NoOps Policy Exemption module](https://github.com/azurenoops/terraform-azurerm-overlays-policy/tree/main/modules/policyExemption).
+- Multiple scopes can be exempt from policy inheritance by specifying `assignment_not_scopes` or using the [Azure NoOps Policy Exemption module](https://github.com/POps-Rox/terraform-azurerm-overlays-policy/tree/main/modules/policyExemption).
 - Policy **overrides RBAC** so even resource owners and contributors fall under compliance enforcements assigned at a higher scope (unless the policy is assigned at the ownership scope).
 
 ![Policy Definition and Assignment Scopes](img/scopes.png)
@@ -84,7 +84,7 @@ To trigger an on-demand [compliance scan](https://learn.microsoft.com/en-us/azur
 
 ### Mission Enclave General Policy Configuration
 
-The following parameters affect the "General Policy Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/azurenoops/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
+The following parameters affect the "General Policy Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/POps-Rox/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
 
 Example Configuration:
 
@@ -95,7 +95,7 @@ Parameter name | Default Value | Description
 
 ### Mission Enclave Logging Policy Configuration
 
-The following parameters affect the "Logging Policy Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/azurenoops/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
+The following parameters affect the "Logging Policy Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/POps-Rox/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
 
 Example Configuration:
 
@@ -105,7 +105,7 @@ Parameter name | Default Value | Description
 
 ### Mission Enclave Network Policy Configuration
 
-The following parameters affect the "Network Policy Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/azurenoops/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
+The following parameters affect the "Network Policy Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/POps-Rox/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
 
 Example Configuration:
 
@@ -116,7 +116,7 @@ Parameter name | Default Value | Description
 
 ### Mission Enclave Monitoring Policy Configuration
 
-The following parameters affect the "Monitoring Policy Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/azurenoops/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
+The following parameters affect the "Monitoring Policy Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/POps-Rox/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
 
 Example Configuration:
 
@@ -127,7 +127,7 @@ Parameter name | Default Value | Description
 
 ### Mission Enclave Key Vault Policy Configuration
 
-The following parameters affect the "Key Vault Policy Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/azurenoops/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
+The following parameters affect the "Key Vault Policy Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/POps-Rox/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
 
 Example Configuration:
 
@@ -137,7 +137,7 @@ Parameter name | Default Value | Description
 
 ### Mission Enclave Cost Management Policy Configuration
 
-The following parameters affect the "Cost Management Policy Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/azurenoops/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
+The following parameters affect the "Cost Management Policy Configuration". To override the defaults edit the variables file at [parameters.tfvars](https://github.com/POps-Rox/ref-scca-enclave-policy-starter/tree/main/infrastructure/policy/tfvars/parameters.tfvars).
 
 Example Configuration:
 

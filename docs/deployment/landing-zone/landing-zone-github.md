@@ -1,6 +1,6 @@
 # Deploy a Mission Enclave Landing Zone using GitHub Actions
 
-This document provides guidance on how to deploy a [Mission Enclave Landing Zone starter](https://github.com/azurenoops/ref-scca-enclave-landing-zone-starter)using GitHub Actions.
+This document provides guidance on how to deploy a [Mission Enclave Landing Zone starter](https://github.com/POps-Rox/ref-scca-enclave-landing-zone-starter)using GitHub Actions.
 
 Learn more about Azure NoOps GitHub Actions [here](../github-actions.md).
 
@@ -16,7 +16,7 @@ Reference the [Remote State Storage](../remote-state-storage.md) directory for t
 
 ### Using GitHub Dependencies Action
 
-Run the following action [deploy_dependencies.yml](https://github.com/azurenoops/ref-scca-enclave-landing-zone-starter/tree/main/.github/workflows/deploy_dependencies.yml) to create the storage account and container.
+Run the following action [deploy_dependencies.yml](https://github.com/POps-Rox/ref-scca-enclave-landing-zone-starter/tree/main/.github/workflows/deploy_dependencies.yml) to create the storage account and container.
 
 ## Setting Up GitHub Actions for deployment
 

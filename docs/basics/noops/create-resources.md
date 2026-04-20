@@ -271,7 +271,7 @@ Let's create an Azure Storage account using Terraform:
 
     ```terraform
     module "mod_vnet_spoke" {
-      source  = "azurenoops/overlays-workload-spoke/azurerm"
+      source  = "POps-Rox/overlays-workload-spoke/azurerm"
       version = "~> 1.0.0"
 
       # By default, this module will create a resource group, provide the name here
@@ -332,7 +332,7 @@ Let's create an Azure Storage account using Terraform:
 <details><summary>Show `modules.spoke.tf` contents</summary>
     ```console
     module "mod_vnet_spoke" {
-      source  = "azurenoops/overlays-workload-spoke/azurerm"
+      source  = "POps-Rox/overlays-workload-spoke/azurerm"
       version = "~> 1.0.0"
 
       # By default, this module will create a resource group, provide the name here
@@ -397,7 +397,7 @@ Let's create an Azure Storage account using Terraform:
 
     ```terraform
     module "mod_storage_account" "example" {
-      source="azurenoops/terraform-azurerm-overlays-storage-account/azurerm"
+      source="pops-rox/terraform-azurerm-overlays-storage-account/azurerm"
       version="0.1.0"
 
       # Resource Group, location, VNet and Subnet details
@@ -448,7 +448,7 @@ Let's create an Azure Storage account using Terraform:
     ```console
 
     module "mod_storage_account" "example" {
-      source="azurenoops/terraform-azurerm-overlays-storage-account/azurerm"
+      source="pops-rox/terraform-azurerm-overlays-storage-account/azurerm"
       version="0.1.0"
 
       # Resource Group, location, VNet and Subnet details
