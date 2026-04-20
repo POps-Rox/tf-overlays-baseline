@@ -8,7 +8,7 @@ In Azure NoOps overlay modules, the Terraform configurations are structured in t
 
 resources.`azure_resource`.tf - contains the resources that are created in the module and the configuration of those resources. Example: resources.key.vault.tf
 
-modules.`azure_resource`.tf - contains the NoOps modules that are used in the module. Example: modules.key.vault.tf which is the [Key Vault module](https://github.com/POps-Rox/terraform-azurerm-overlays-key-vault).
+modules.`azure_resource`.tf - contains the NoOps modules that are used in the module. Example: modules.key.vault.tf which is the [Key Vault module](https://github.com/POps-Rox/terraform-az-overlays-keyvault).
 
 variables.`azure_resource`.tf - contains declarations of variables used in resources.tf
 

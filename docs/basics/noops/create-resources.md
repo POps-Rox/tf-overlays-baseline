@@ -271,8 +271,8 @@ Let's create an Azure Storage account using Terraform:
 
     ```terraform
     module "mod_vnet_spoke" {
-      source  = "POps-Rox/overlays-workload-spoke/azurerm"
-      version = "~> 1.0.0"
+      source  = "github.com/POps-Rox/terraform-az-overlays-workloadspoke"
+      # version: pin with ?ref=v1.0.0 in source URL — Terraform Registry publication pending
 
       # By default, this module will create a resource group, provide the name here
       # To use an existing resource group, specify the existing resource group name, 
@@ -332,8 +332,8 @@ Let's create an Azure Storage account using Terraform:
 <details><summary>Show `modules.spoke.tf` contents</summary>
     ```console
     module "mod_vnet_spoke" {
-      source  = "POps-Rox/overlays-workload-spoke/azurerm"
-      version = "~> 1.0.0"
+      source  = "github.com/POps-Rox/terraform-az-overlays-workloadspoke"
+      # version: pin with ?ref=v1.0.0 in source URL — Terraform Registry publication pending
 
       # By default, this module will create a resource group, provide the name here
       # To use an existing resource group, specify the existing resource group name, 
@@ -397,8 +397,8 @@ Let's create an Azure Storage account using Terraform:
 
     ```terraform
     module "mod_storage_account" "example" {
-      source="pops-rox/terraform-azurerm-overlays-storage-account/azurerm"
-      version="0.1.0"
+      source  = "github.com/POps-Rox/terraform-az-overlays-storageaccount"
+      # version: pin with ?ref=v0.1.0 in source URL — Terraform Registry publication pending
 
       # Resource Group, location, VNet and Subnet details
       create_storage_resource_group = true
@@ -448,8 +448,8 @@ Let's create an Azure Storage account using Terraform:
     ```console
 
     module "mod_storage_account" "example" {
-      source="pops-rox/terraform-azurerm-overlays-storage-account/azurerm"
-      version="0.1.0"
+      source  = "github.com/POps-Rox/terraform-az-overlays-storageaccount"
+      # version: pin with ?ref=v0.1.0 in source URL — Terraform Registry publication pending
 
       # Resource Group, location, VNet and Subnet details
       create_storage_resource_group = true

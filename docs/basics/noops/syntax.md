@@ -53,10 +53,12 @@ module "mod_<module>" "<name>" {
 
 For example:
 
+> **Note:** POps-Rox modules are not yet published to the Terraform Registry. Use the GitHub source format shown below until registry publication is complete.
+
 ```terraform
 module "mod_storage_account" "example" {
-  source="pops-rox/terraform-azurerm-overlays-storage-account/azurerm"
-  version="0.1.0"
+  source  = "github.com/POps-Rox/terraform-az-overlays-storageaccount"
+  # version: pin with ?ref=v0.1.0 in source URL — Terraform Registry publication pending
   name                     = "examplest"  
   location                 = "northeurope"
   account_tier             = "Standard"
@@ -94,8 +96,8 @@ data "azurerm_resource_group" "example" {
 }
 
 module "mod_storage_account" "example" {
-  source="pops-rox/terraform-azurerm-overlays-storage-account/azurerm"
-  version="0.1.0"
+  source  = "github.com/POps-Rox/terraform-az-overlays-storageaccount"
+  # version: pin with ?ref=v0.1.0 in source URL — Terraform Registry publication pending
   
   existing_resource_group_name   = data.azurerm_resource_group.example.name
   location                       = data.azurerm_resource_group.example.location

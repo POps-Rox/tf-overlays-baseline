@@ -8,11 +8,9 @@
 
 # Azure NoOps Terraform Baseline
 
-[![ci](https://github.com/POps-Rox/terraform-baseline/actions/workflows/ci.yml/badge.svg)](hhttps://github.com/POps-Rox/terraform-baseline/actions/workflows/ci.yml)
-
 Azure NoOps Terraform Baseline Guide (ETB) is a collection of tutorials amd guides on how to get started with Terraform in Azure NoOps.
 
-Hosted in [GitHub Pages](https://POps-Rox.github.io/terraform-overlays-baseline/).
+Documentation and guides are hosted in this [GitHub repository](https://github.com/POps-Rox/terraform-overlays-baseline).
 
 ## Development
 
