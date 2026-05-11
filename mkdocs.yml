@@ -73,7 +73,7 @@ nav:
       - basics/noops/destroy-resources.md
       - basics/noops/summary.md
   - Reusable Modules:
-    - Module library: https://registry.terraform.io/search/modules?namespace=pops-rox&provider=azure
+    - Module library: https://github.com/orgs/POps-Rox/repositories?q=terraform-az-overlays&type=public
   - Developing Modules:
     - Overview: developing-modules/overview.md
     - Module structure: developing-modules/module-structure.md

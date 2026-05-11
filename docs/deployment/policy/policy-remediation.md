@@ -12,7 +12,7 @@ Automatic remediation involves using automation tools to identify and correct no
 
 Automatic remediation is often used for critical or recurring issues that require immediate attention. It can help ensure that non-compliant resources are corrected quickly and consistently, reducing the risk of security breaches and compliance violations.
 
-[Azure NoOps Policy Module](https://github.com/POps-Rox/terraform-azurerm-overlays-policy) provides a set of policy definitions, initatives and remediation tasks that can be used to automatically remediate non-compliant resources in Azure. These policy definitions and remediation tasks are designed to help organizations enforce security and compliance standards across their Azure environment.
+[Azure NoOps Policy Module](https://github.com/POps-Rox/terraform-az-overlays-policy) provides a set of policy definitions, initatives and remediation tasks that can be used to automatically remediate non-compliant resources in Azure. These policy definitions and remediation tasks are designed to help organizations enforce security and compliance standards across their Azure environment.
 
 ## Best Practices for Policy Remediation
 

@@ -54,7 +54,7 @@ Parameter name | Default Value | Description
 
 - Should be Defined as **high up** in the hierarchy as possible.
 - Should be Assigned as **low down** in the hierarchy as possible.
-- Multiple scopes can be exempt from policy inheritance by specifying `assignment_not_scopes` or using the [Azure NoOps Policy Exemption module](https://github.com/POps-Rox/terraform-azurerm-overlays-policy/tree/main/modules/policyExemption).
+- Multiple scopes can be exempt from policy inheritance by specifying `assignment_not_scopes` or using the [Azure NoOps Policy Exemption module](https://github.com/POps-Rox/terraform-az-overlays-policy/tree/main/modules/policyExemption).
 - Policy **overrides RBAC** so even resource owners and contributors fall under compliance enforcements assigned at a higher scope (unless the policy is assigned at the ownership scope).
 
 ![Policy Definition and Assignment Scopes](img/scopes.png)

@@ -6,9 +6,9 @@ This document provides best practices for developing reusable Terraform modules 
 
 - Use [this template](https://github.com/POps-Rox/terraform-module-overlays-template) when creating your repository.
 
-- Use the common naming convention `terraform-azurerm-overlays-<name>` when naming your repository.
+- Use the common naming convention `terraform-az-overlays-<name>` when naming your repository.
 
-    For example, if you want to create a module named `storage`, the repository should be named `terraform-azurerm-overlays-storage`.
+    For example, if you want to create a module named `storage`, the repository should be named `terraform-az-overlays-storage`.
 
 - Configure the following code owners in a file `.github/CODEOWNERS`:
 
